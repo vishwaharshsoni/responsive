@@ -145,16 +145,20 @@ img
 .container0
 {
     display: flex;
-    height: 100vh;
+    
     justify-content: center;
     align-items: center;
 
+}
+.temp
+{
+    margin-top: 200px;
 }
 .outOf
 {
     color: grey;
 }
-@media (max-width:700px)
+@media (max-width:648px)
 {
     .container
 {
@@ -169,6 +173,19 @@ img
     }
     .container2 
     {align-items: center;}
+    .comp
+    {
+        margin-bottom: 10px;
+    }
+    .heading
+    {
+        
+    }
+
+    .container
+    {
+        gap: 0px;
+    }
 }
 
 
@@ -179,7 +196,7 @@ img
     .container
     {
     display: grid;
-    grid-template-columns: 375px;
+    grid-template-columns: 300px;
     grid-template-rows: 1fr 1fr ;
     }
     .container2 
@@ -210,4 +227,11 @@ img
     {
         margin-top: -70px;
     }
-}
+    .head1
+    {
+        margin-top: 10px;
+    }
+
+}   
+
+
